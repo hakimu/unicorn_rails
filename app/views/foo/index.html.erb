@@ -1,2 +1,3 @@
 <h3>What time is it??</h3>
-<p>It's currently <%= @time %></p>
+<p>It's currently <%= @utc_time %> UTC</p>
+<p>In Portland, it's currently <%= @utc_time.hour-8 %> UTC</p>

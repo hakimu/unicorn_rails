@@ -1,5 +1,7 @@
 class FooController < ApplicationController
   def index
-  	@time = Time.now
+  	print request
+  	@utc_time = Time.now
+  	@pdx_time = Time.now
   end
 end
