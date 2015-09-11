@@ -26,7 +26,7 @@ common: &default_settings
 
   audit_log:
     enabled: true
-
+    path: 'stdout'
 
 # Environment-specific settings are in this section.
 # RAILS_ENV or RACK_ENV (as appropriate) is used to determine the environment.
