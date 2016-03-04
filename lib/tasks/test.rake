@@ -3,7 +3,7 @@ require_relative '../boom.rb'
 
 namespace :exceptional do 
 	task :demo => :environment do
-		raise "An error occured in Rake"
+		#raise "An error occured in Rake"
 		def adder(x,y)
 			puts x + y
 		end
