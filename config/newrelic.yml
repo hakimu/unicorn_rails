@@ -25,7 +25,7 @@ common: &default_settings
   log_level: info
 
   rake:
-    tasks: ["exceptional:demo"]
+    tasks: ["exceptional:demo","exceptional:demo"]
 
   # audit_log:
   #   enabled: true

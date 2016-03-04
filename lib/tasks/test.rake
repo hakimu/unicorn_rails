@@ -11,4 +11,12 @@ namespace :exceptional do
 		adder(1,2)
 		Boom.new.throwing_error
 	end
+
+	task :bar => :environment do
+		def multiplier(x,y)
+			puts x * y
+		end
+		adder(1,2)
+		Boom.new.no_error_thrown
+	end
 end
