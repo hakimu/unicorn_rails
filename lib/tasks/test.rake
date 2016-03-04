@@ -16,7 +16,7 @@ namespace :exceptional do
 		def multiplier(x,y)
 			puts x * y
 		end
-		adder(1,2)
+		multiplier(1,2)
 		Boom.new.no_error_thrown
 	end
 end
