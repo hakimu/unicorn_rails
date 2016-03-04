@@ -16,7 +16,9 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'unicorn'
 
-gem 'newrelic_rpm'
+gem 'rake','10.5.0'
+
+gem 'newrelic_rpm','3.15.0.314'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
