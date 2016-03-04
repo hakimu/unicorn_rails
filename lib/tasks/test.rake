@@ -1,6 +1,5 @@
 require 'tasks/newrelic'
-
-require '/Users/hakimu/Documents/scribble/heroku_rails_app/unicorn_app/lib/boom.rb'
+require_relative '../boom.rb'
 
 namespace :exceptional do 
 	task :demo => :environment do
