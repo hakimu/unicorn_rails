@@ -7,7 +7,6 @@ class Boom
 		raise "Rake error from Boom!!!"
 		puts "Here's where the agent should raise the error"
 	end
-	add_transaction_tracer :throwing_error, :category => :task
 
 	def no_error_thrown
 		puts "there's no error for this method"
