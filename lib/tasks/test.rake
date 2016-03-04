@@ -1,4 +1,4 @@
-require 'tasks/newrelic'
+#require 'tasks/newrelic'
 require_relative '../boom.rb'
 
 namespace :exceptional do 
