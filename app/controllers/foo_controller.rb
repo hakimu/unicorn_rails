@@ -1,3 +1,5 @@
+require 'backports'
+
 class FooController < ApplicationController
   def index
   	print request
