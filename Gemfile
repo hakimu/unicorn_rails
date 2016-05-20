@@ -14,9 +14,6 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
-#adding gem to troubleshoot ticket
-gem 'backports'
-
 gem 'unicorn'
 
 gem 'rake','10.5.0'
