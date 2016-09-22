@@ -18,7 +18,7 @@ gem 'unicorn'
 
 gem 'rake','10.5.0'
 
-gem 'newrelic_rpm','3.15.0.314'
+gem 'newrelic_rpm','3.15.2.317'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
